@@ -1,6 +1,6 @@
 To make predictions, follow these steps:
 
-1.	Clone the LLPS_regulators_Pred repository using git clone https://github.com/bioplusAI/LLPS_regulators_pred.git.
+1.	Clone the LLPS_regulators_Pred repository using command: git clone https://github.com/bioplusAI/LLPS_regulators_pred.git.
 2.	Launch a command-line interface (e.g., Command Prompt or Terminal).
 3.	Navigate to the cloned repository using the command: cd LLPS_regulators_Pred
 4.	Create the conda environment by executing: conda env create -f environment/environment.yml
