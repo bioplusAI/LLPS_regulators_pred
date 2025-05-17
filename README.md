@@ -9,5 +9,9 @@ To make predictions, follow these steps:
 7.	Insert your query protein sequences (in FASTA format) into the Input_sequences.txt file located within the repository Input_sequences.
 8.	Open the Source_code.ipynb notebook from the Source_code directory in Jupyter Notebook and execute the code.
    
-Note: The initial execution may take several minutes as the ESM-2 model is downloaded. Once the model is cached, subsequent predictions will be completed within seconds.
-
+Note: The initial run may require several minutes to complete due to the download of the ESM2_t36 model. After the model is cached locally, subsequent predictions will be executed within seconds.
+Alternatively, you may manually download the ESM2_t36 model from the following link:
+https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt
+Please place the downloaded esm2_t36_3B_UR50D.pt file in the checkpoints directory, which is typically located at:
+C:\Users\<username>\.cache\torch\hub\checkpoints
+If this directory does not exist, please create it.
