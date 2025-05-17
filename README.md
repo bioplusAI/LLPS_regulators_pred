@@ -14,4 +14,4 @@ Alternatively, you may manually download the ESM2_t36 model from the following l
 https://dl.fbaipublicfiles.com/fair-esm/models/esm2_t36_3B_UR50D.pt
 Place the downloaded esm2_t36_3B_UR50D.pt file in the checkpoints directory, which is typically located at:
 C:\Users\<username>\.cache\torch\hub\checkpoints
-If this directory does not exist, please create it.
+If this directory does not exist, please create it and execute the code.
